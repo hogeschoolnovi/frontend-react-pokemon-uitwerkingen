@@ -1,1 +1,24 @@
-/*Schrijf hier jouw eigen CSS!*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', 'Arial', sans-serif;
+    background-color: #F7C602;
+}
+
+.poke-deck {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 40px 0;
+}
+
+.button-bar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 20px 0;
+}

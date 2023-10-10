@@ -83,4 +83,5 @@ Soms is WebStorm niet zo slim!
    gebruiker op een knop klikt, zorg jij dat de volgende - of vorige - reeks Pokèmon worden opgehaald en weergegeven. De
    knoppen worden automatisch _disabled_ wanneer het begin of eind van de reeks bereikt is, dus houdt hier rekening mee.
 5. Zorg ervoor dat alle `error` en `loading` van alle requests worden gecommuniceerd met de gebruiker.
-6. Voorkom memoryleaks op alle mogelijke plekken.
+6. Voorkom memoryleaks op alle mogelijke plekken. _Tip:_ zet `<React.StrictMode>` uit in `main.jsx` wanneer je hiermee aan
+   de slag gaat, anders worden als je requests twee keer aangeroepen en vaker gecancelled dan nodig is.
